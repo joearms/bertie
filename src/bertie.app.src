@@ -1,0 +1,12 @@
+{application, bertie,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { bertie_app, []}},
+  {env, []}
+ ]}.
